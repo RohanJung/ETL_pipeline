@@ -10,4 +10,5 @@ print(df_projects)
 
 
 df_population = pd.read_csv('C:/Users/rest/Documents/python/etl/ETL_pipeline/Data/population_data.csv',skiprows=4)
+df_population = df_population.drop('Unnamed:62',axis=1)
 print(df_population)
